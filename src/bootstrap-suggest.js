@@ -706,7 +706,7 @@
 
                         options.fnGetData($.trim(word), $input, refreshDropMenu, options);
 
-                    }, 300);
+                    }, 800);
                 }).on('focus', function() {
                     //console.log('input focus');
                     adjustDropMenuPos($input, $dropdownMenu, options);
